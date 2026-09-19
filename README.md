@@ -61,6 +61,10 @@ Before sharing, add your name, role, repository, and portfolio link to the foote
 
 Run `npm run build` and deploy the generated `dist/` directory to any static host, including Vercel, Netlify, or GitHub Pages.
 
+### Netlify
+
+This repository includes `netlify.toml`; Netlify will use `npm run build` and publish `dist/` automatically. In Netlify, choose **Add new project** > **Import an existing project**, connect GitHub, and select `Michaelscott007/social-capital-launch-graph`. Approve the detected settings and deploy. Netlify will provide a public `*.netlify.app` URL that updates after future pushes to `main`.
+
 ## License
 
 [MIT](LICENSE)
